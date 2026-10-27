@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "doraemon-ai": {
+      "tools": [
+        {
+          "name": "retrieve_4d_gadget",
+          "description": "Extracts 22nd-century spatial computing gadget from Doraemon 4-dimensional pocket",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "gadget_name": {
+                "type": "string"
+              },
+              "target_utility": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "gadget_name"
+            ]
+          }
+        },
+        {
+          "name": "open_anywhere_door",
+          "description": "Executes zero-latency spatial cross-chain relay via Anywhere Door topology",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "destination_chain": {
+                "type": "string"
+              },
+              "target_address": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "destination_chain",
+              "target_address"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
